@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="covid.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="scriptquiz.js"></script>
+    <title>QUIZ COVID</title>
+</head>
+<body>
+    <div class="image">
+    <img src="covid.png" alt="">
+</div>
+    <div class="container">
+        <form>
+          <p>Votre température corporelle dépasse-t-elle 37°C  ?</p>
+          <label>
+            <input type="radio" name="temperature" value="plus" />
+            Oui
+          </label><br><br>
+
+          <label>
+            <input type="radio" name="temperature" value="moins" />
+           Non
+          </label>
+          <br /><br />
+      
+          <p>Avez-vous l'une de ses symptomes : Perte du gout ou de l'odorat, douleurs musculaires ou courbatures ?</p>
+          <label>
+            <input type="radio" name="symptomes" value="oui" />
+            Oui
+          </label><br><br>
+          <label>
+            <input type="radio" name="symptomes" value="non" />
+            Non
+          </label>
+          
+          <br /><br />
+      
+          <p>Avez-vous des difficultés respiratoires ?</p>
+          <label>
+            <input type="radio" name="respiration" value="oui" />
+            Oui
+          </label><br><br>
+          <label>
+            <input type="radio" name="respiration" value="non" />
+            Non
+          </label>
+      
+          <p>Avez-vous été en contact avec un malade durant les 10 derniers jours ?</p>
+          <label>
+            <input type="radio" name="contact" value="oui" />
+            Oui
+          </label><br><br>
+          <label>
+            <input type="radio" name="contact" value="non" />
+            Non
+          </label>
+          <br /><br />
+      
+          <button type="submit">Soumettre mes réponses</button>
+        </form>
+      </div>
+      
+
+    
+</body>
+</html>
